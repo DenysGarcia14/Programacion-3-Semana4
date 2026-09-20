@@ -89,12 +89,12 @@ public class Main {
         l2.prestar(); // sin ejemplares disponibles, imprime aviso
 
         // Caso invalido: se captura para no detener el programa
-        try {
-            new LibroBiblioteca("", "Autor X", 2);
-        } catch (IllegalArgumentException e) {
-            System.out.println("Error esperado (LibroBiblioteca): " + e.getMessage());
-        }
-        System.out.println();
+        // try {
+         //   new LibroBiblioteca("", "Autor X", 2);
+       // } catch (IllegalArgumentException e)  {
+          //  System.out.println("Error esperado (LibroBiblioteca): " + e.getMessage());
+        //}
+       // System.out.println();
 
         // ===== Registro =====
         new Registro();
